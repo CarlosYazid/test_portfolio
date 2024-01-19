@@ -113,3 +113,14 @@ function print_sum(num1, num2, num3) {console.log(`El promedio de los numeros in
 function mayor(num1, num2) {console.log("El primer numero es"+( num1 > num2 ? "mayor": "menor o igual")+"al segundo numero");}
 
 function exp_(num1) {console.log(num1*num1);}
+
+
+function imc_calculate(height, weight) {return weight/(height*height);}
+
+function factorial(num) {if (num === 0) {return 1;} else {return num * factorial(num - 1);}}
+
+function area(height, weight) {return weight*height};
+
+function area_circle(radius) {return Math.PI*radius*radius;}
+
+function table_of_multiplication(num) {for (let i = 1; i < 11; i++) {console.log(`${num} x ${i} = ${num*i}`);}}
